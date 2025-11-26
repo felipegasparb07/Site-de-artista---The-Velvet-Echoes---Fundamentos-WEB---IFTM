@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <title>The Velvet Echoes - Contato</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet"/>
+</head>
+
+<body>
+
+    <!-- ====================== HEADER ====================== -->
+    <header>
+        <div class="caixa">
+            <h1 class="logo"><a href="indexvelvet.html">The Velvet Echoes</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="indexvelvet.html#quem-somos">Quem Somos</a></li>
+                    <li><a href="indexvelvet.html#discografia">Discografia</a></li>
+                    <li><a href="indexvelvet.html#agenda">Agenda</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="merch.html">Merch</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ====================== CONTEÚDO ====================== -->
+    <section class="contato-container">
+        <h1>CONTATO</h1>
+
+        <p>
+            QUER NOS CONTATAR? Envie um e-mail abaixo para nossa equipe e logo mais iremos retornar!
+        </p>
+
+        <main>
+            <form class="formulario">
+                <label for="nome">Nome</label>
+                <input type="text" 
+                id="nome" 
+                class="input-padrao" 
+                required 
+                placeholder="Seu nome aqui"
+                />
+
+                <label for="email">Email</label>
+                <input type="email" 
+                id="email" 
+                class="input-padrao" 
+                required 
+                placeholder="seuemail@dominio.com"
+                />
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" 
+                id="telefone" 
+                class="input-padrao" 
+                required 
+                placeholder="(XX) XXXXX-XXXX"
+                />
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" 
+                rows="10" 
+                id="mensagem" 
+                class="input-padrao" 
+                required 
+                placeholder="Digite sua mensagem aqui">
+                </textarea>
+
+                <input type="submit" value="Enviar formulário" class="enviar" />
+            </form>
+        </main>
+
+        <p class="voltar"><a href="indexvelvet.html">VOLTAR À PÁGINA INICIAL</a></p>
+    </section>
+
+    <!-- ====================== FOOTER ====================== -->
+    <footer>
+        <p class="copyright">Copyright The Velvet Echoes - 2025</p>
+    </footer>
+
+</body>
+</html>
